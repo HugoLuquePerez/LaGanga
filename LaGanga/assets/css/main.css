@@ -1,10 +1,23 @@
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(30, 30, 30);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
 body {
     overflow-x: hidden;
 }
 
 .hero {
     width: 100%;
-    height: 850px;
+    height: 900px;
     background-image: url("https://wallpaperaccess.com/full/5236169.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,8 +113,8 @@ body {
     width: 100%;
     color: #fff;
     background-color: rgb(150, 150, 150);
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -262,12 +275,91 @@ body {
 .hero__txt {
     font-size: 20px;
     font-family: 'Comic Neue', cursive;
-    margin-top: 50px;
+    margin-top: 70px;
     color:#fff;
 }
 
 .hero__span {
     text-align: center;
+}
+
+.event {
+    margin-top: -20px;
+    background-color: rgb(30, 30, 30);
+    padding-bottom: 150px;
+}
+
+.event__title {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comic Neue', cursive;
+    color: #fff;
+}
+
+.event__txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card__container {
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../images/events/caja-misteriosa-embalaje-diseno-conceptual-regalo-sorpresa-diseno-paquete-simbolo-ayuda-icono-signo-interrogacion-ilustracion-stock-neon-vectorial_100456-6292.jpg");
+    border-radius: 10px;
+    margin: 0 50px;
+    width: 30%;
+    border: 1px solid rgba(0, 150, 0, 0.7);
+    padding: 10px 30px 25px;
+}
+
+.card__title {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card__txt {
+    padding: 50px 0;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+}
+
+.card__img {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__proximamente {
+    padding: 50px 0;
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+}
+
+.card__proximamente p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
 }
 
 @media screen and (max-width: 726px) {

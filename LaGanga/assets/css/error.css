@@ -1,0 +1,134 @@
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(30, 30, 30);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 939px;
+}
+
+.error__container {
+    border: 1px solid rgba(0, 150, 0, 0.3);
+    border-radius: 10px;
+    height: 600px;
+    width: 60%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.error__title {
+    font-size: 20px;
+    margin: 30px 0;
+    color: rgb(30, 30, 30);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.error__txt {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(30, 30, 30);
+    margin-bottom: 80px;
+}
+
+.error__form {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.id__discord {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.id__discord label {
+    font-family: 'Comic Neue', cursive;
+    margin-bottom: 10px;
+}
+
+.id__discord label:hover {
+    cursor: pointer;
+}
+
+.id__discord input {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
+    background-color: rgba(150, 150, 150, 0.3);
+}
+
+.id__discord input:focus {
+    outline: none;
+}
+
+.error {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.error label {
+    font-family: 'Comic Neue', cursive;
+    margin-bottom: 10px;
+}
+
+.error label:hover {
+    cursor: pointer;
+}
+
+.error textarea {
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
+    background-color: rgba(150, 150, 150, 0.3);
+    height: 100px;
+}
+
+.error textarea:focus {
+    outline: none;
+}
+
+.submit__container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit {
+    color: #fff;
+    font-family: 'Comic Neue', cursive;
+    border: 1px solid rgb(0, 200, 0);
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    background-color: rgba(0, 150, 0, 0.7);
+    margin-bottom: 50px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: rgba(0, 200, 0, 0.7);
+}
