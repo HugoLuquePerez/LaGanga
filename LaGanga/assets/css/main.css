@@ -1,0 +1,308 @@
+body {
+    overflow-x: hidden;
+}
+
+.hero {
+    width: 100%;
+    height: 850px;
+    background-image: url("https://wallpaperaccess.com/full/5236169.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav__main--container {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo {
+    width: 20%;
+    padding-left: 40px;
+}
+
+.nav__logo img {
+    border-radius: 50%;
+    height: 45px;
+}
+
+.nav__bar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-flow: wrap row;
+}
+
+.nav {
+    height: 25px;
+    padding: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav:hover {
+    margin-top: -2px;
+    border-bottom: 2px solid rgba(0, 150, 0, 0.7);
+    cursor: pointer;
+}
+
+.none {
+    display: none;
+}
+
+.bg-inverse {
+    background-color: rgb(245, 245, 245);
+    position: fixed;
+    width: 100%;
+}
+
+.bg-inverse nav div a {
+    color: #101010;
+}
+
+.hero__content {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+.hero__title {
+    margin: 80px 0 40px 0;
+}
+
+.hero__title h2 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.button__menuContainer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button__menuContainer:hover {
+    cursor: pointer;
+}
+
+.button__menu {
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 100%;
+    color: #fff;
+    background-color: rgb(150, 150, 150);
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button__menu:hover {
+    background-color: rgba(0, 200, 0, 0.8);
+}
+
+.hero__invite--container {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    width: 100%;
+}
+
+.hero__invite {
+    margin-left: -320px;
+    margin-right: 60px;
+    width: 500px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.invite__title {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 200, 0, 0.5);
+    font-family: 'Comic Neue', cursive;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 2px 7px 3px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.invite__txt {
+    width: 480px;
+    margin-top: -3px;
+    margin-bottom: -3px;
+    padding: 5px 0;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgb(30, 30, 30);
+    font-family: 'Comic Neue', cursive;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 10px;
+    padding-left: 20px;
+    padding-bottom: 3px;
+}
+
+.invite__content {
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.invite__img {
+    display: flex;
+    align-items: center;
+    padding:0 20px;
+}
+
+.invite__img img {
+    border-radius: 40%;
+    height: 40px;
+}
+
+.txt__container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.txt {
+    height: 50px;
+    color: #fff;
+}
+
+.txt img {
+    margin-right: -20px;
+    margin-bottom: -10px;
+    height: 25px;
+}
+
+.button__container {
+    padding-right: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menbers {
+    margin-top: -15px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.menbers p {
+    width: 150px;
+}
+
+.point--green {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(0, 200, 0, 0.5);
+    color: rgba(0, 200, 0, 0.5);
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+
+.point--gray {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(80, 80, 80);
+    color: rgba(0, 0, 0, 0.4);
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+
+.button__container button {
+    padding: 5px 15px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Comic Neue', cursive;
+    background-color: rgba(0, 200, 0);
+    color: #fff;
+}
+
+.button__container button:hover {
+    cursor: pointer;
+}
+
+.owner__container {
+    margin-top: -20px;
+}
+
+.owner__title {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.owner__img img {
+    border-radius: 5px;
+}
+
+.hero__txt {
+    font-size: 20px;
+    font-family: 'Comic Neue', cursive;
+    margin-top: 50px;
+    color:#fff;
+}
+
+.hero__span {
+    text-align: center;
+}
+
+@media screen and (max-width: 726px) {
+    .nav__main--container {
+        height: 160px;
+    }
+
+    .nav__bar {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 452px) {
+    .nav__main--container {
+        height: 225px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .nav__logo {
+    padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 309px) {
+    .nav__main--container {
+        height: 270px;
+    }
+    .nav {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .nav__main--container {
+        height: 330px;
+    }
+}
